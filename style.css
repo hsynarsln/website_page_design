@@ -6,13 +6,14 @@ body {
   font-size: 1rem;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  line-height: 1.8rem;
-  /* overflow-x: hidden; */
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 .home--header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: #35424a;
   border-bottom: 5px solid #7d486f;
   color: white;
@@ -20,8 +21,8 @@ body {
   position: relative;
   position: fixed;
   top: 0px;
-  width: 100vw;
   height: 8vh;
+  width: 100%;
 }
 .home--header__h1 {
   padding-left: 10px;
@@ -54,12 +55,11 @@ a:active {
   justify-content: center;
 }
 .img--p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .home--main__mail {
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-between;
   align-items: center;
   background-color: #35424a;
@@ -67,7 +67,7 @@ a:active {
   height: 10vh;
   padding-left: 10px;
   padding-right: 30px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   position: -webkit-sticky;
   position: sticky;
   top: 8.5vh;
@@ -76,11 +76,11 @@ a:active {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 34rem;
+  width: 30%;
 }
 .mail--input {
   outline: none;
-  width: 20rem;
+  width: 60%;
   height: 2rem;
 }
 .mail--button {
@@ -88,7 +88,7 @@ a:active {
   color: #fff;
   border: none;
   cursor: pointer;
-  width: 8rem;
+  width: 30%;
   height: 2.3rem;
   margin-left: 0.3rem;
 }
@@ -97,22 +97,22 @@ a:active {
   flex-direction: row;
   background-color: #f4f4f4;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   height: 45vh;
   padding-top: -40px;
 }
 .logos--html,
 .logos--css,
 .logos--brush {
-  width: 32vw;
+  width: 32%;
   margin: auto;
   margin-top: 20px;
 }
 .logos--img {
-  width: 20%;
+  width: 15%;
 }
 .logos--img__css {
-  width: 17%;
+  width: 13%;
 }
 .logos--h4 {
   font-weight: 800;
@@ -121,14 +121,17 @@ a:active {
   position: relative;
   position: fixed;
   bottom: 0px;
-  width: 100vw;
-  height: 10vh;
+  width: 100%;
+  height: 12vh;
   background-color: #35424a;
   color: #fff;
   text-align: center;
 }
+.home--footer__p {
+  font-size: 0.8rem;
+}
 .home--footer__img {
-  margin-top: -30px;
+  margin-top: -10px;
 }
 .about {
   display: flex;
@@ -160,7 +163,7 @@ a:active {
 .services {
   display: flex;
   flex-direction: row;
-  height: 75vh;
+  height: 77vh;
   background-color: #f4f4f4;
 }
 .services--mainleft {
@@ -172,8 +175,9 @@ a:active {
 .services--mainleft__col {
   background-color: #e6e6e6;
   border: 1px solid #d3d3d3;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   padding: 0px 1rem;
+  height: 17vh;
 }
 .services--mainright {
   display: flex;
@@ -182,7 +186,7 @@ a:active {
   margin: 2rem 2rem 0 5rem;
   background-color: #35424a;
   color: #fff;
-  height: 30vh;
+  height: 35vh;
   padding: 1rem;
 }
 .services--mainright__input {
@@ -190,7 +194,7 @@ a:active {
   height: 1.5rem;
 }
 .message {
-  height: 2.5rem;
+  height: 2rem;
 }
 .services--mainright__button {
   width: 15%;
@@ -201,4 +205,7 @@ a:active {
   border: none;
   margin-top: 0.5rem;
   cursor: pointer;
+}
+.col--p {
+  font-size: 0.8rem;
 }
